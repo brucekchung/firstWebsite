@@ -1,0 +1,101 @@
+/* STYLE */
+
+
+* {
+	font-family: arial;
+	text-align: center;
+	color: blue;
+}
+
+a {
+	color: #de6581;
+	text-decoration: none;
+}
+
+header {
+	height: 160px;
+}
+
+nav {
+	clear: both;
+	color: gray;
+	background-color: #aeaca8;
+	height: 30px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+section {
+	float: left;
+	width: 800px;
+	border-right: 1px solid #eeeeee;
+}
+
+
+header,  
+nav 	{
+	display: block;
+} 
+
+/* STRUCTURE */
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#top {
+	background-image: url("images/denverskyline2.jpg");
+	background-position: center center;
+	height: 400px;
+}
+
+#mid {
+	height: 400px;
+	overflow: auto;
+}
+
+#bottom {
+	height: 400px; 
+}
+
+#midleft {
+	background-image: url("images/finedining.jpg");
+	background-position: center center;
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: auto;
+	margin: auto;
+}
+
+#midright {
+	background-image: url("images/basketball.jpg");
+	background-position: center center;
+	width: 50%; 
+	height: 100%;
+	float: left;
+	padding: auto;
+	margin: auto;
+}
+
+#bottomleft {
+	width: 50%; 
+	height: 100%;
+	float: left; 
+}
+
+#bottomright {
+	background-image: url("images/strangerthings2.jpg");
+	background-position: center center;
+	width: 50%; 	
+	height: 100%;
+	float: left; 
+}
